@@ -16,10 +16,7 @@
 #import "ZYXSevenViewController.h"
 #import "ZYXEightViewController.h"
 #import "BasicAnimatedViewController.h"
-#import "ScrollViewController.h"
-#import "ScrollViewComplexController.h"
-#import "TableViewController.h"
-#import "HeaderFooterViewController.h"
+
 
 
 static NSString * cellID = @"tableViewCell";
@@ -71,10 +68,7 @@ static NSString * cellID = @"tableViewCell";
                          [[ZYXSevenViewController alloc] initWithTitle:@"七、关系计算—lessThanOrEqualTo等并使用手势"],
                          [[ZYXEightViewController alloc] initWithTitle:@"八、宽高比例multipliedBy() dividedBy()"],
                          [[BasicAnimatedViewController alloc] initWithTitle:@"基本动画"],
-                         [[ScrollViewController alloc] initWithTitle:@"ScrollView布局"],
-                         [[ScrollViewComplexController alloc] initWithTitle:@"复杂ScrollView"],
-                         [[TableViewController alloc] initWithTitle:@"tableview布局"],
-                         [[HeaderFooterViewController alloc] initWithTitle:@"header/footer layout"],
+
                          
                          ];
 
